@@ -1,0 +1,11 @@
+python test_c23.py --train_set c23_all \
+					--test_set c23_all \
+ 				  --num_out_classes 5 \
+          --filter_size 0.6\
+					--batch_size 32 \
+					--loss_type COCOloss \
+					--featureSaved  \
+					--feature_root_folder /home/aiiulab/coco/features/COCOloss_c23_track \
+					--info_folder /home/aiiulab/coco/test_info/COCO_c23_track \
+					--probabilitySaved  \
+					--dataset_folder /home/aiiulab/coco/Face_all/ 
